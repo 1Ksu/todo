@@ -1,0 +1,49 @@
+.formContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 10px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+
+.formBody input, .formBody textarea{
+    padding: 5px;
+    border: 1px solid rgb(187, 159, 0);
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formBody input:focus, .formBody textarea:focus {
+    outline: none;
+}
+
+.formBody textarea {
+    resize: none;
+}
+
+
+.formBody button {
+    font-size: 14px;
+    border: 1px solid rgb(187, 159, 0);
+    border-radius: 4px;
+    background: rgb(255, 212, 70);
+    margin: 15px;
+    padding: 10px 30px;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.formBody button:hover {
+    background: rgb(247, 175, 51);
+}

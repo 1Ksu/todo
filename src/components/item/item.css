@@ -1,0 +1,60 @@
+
+.itemContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(187, 159, 0);
+}
+
+.item:first-child {
+    border-bottom: 1px solid  rgb(187, 159, 0);
+}
+
+.item p {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item input {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.item input:focus {
+    outline: none;
+}
+
+.controlItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.controlItems img {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.taskTitle.hidden {
+    display: none;
+}
+.taskInputTitle.hidden{
+    display: none;
+}
+
+.taskDescription.hidden {
+    display: none;
+}
+.taskInputDescription.hidden {
+    display: none;
+}
